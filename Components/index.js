@@ -12,7 +12,7 @@ import Loader from "./Loader";
 import MobileApp from "./MobileApp";
 import Service from "./Service";
 import Team from "./Team";
-import Timeline from "./Timeline";
+// import Timeline from "./Timeline";
 import TokenSale from "./TokenSale";
 
 export {
@@ -29,7 +29,7 @@ export {
   Loader,
   MobileApp,
   Team,
-  Timeline,
+  // Timeline,
   TokenSale,
   Service,
 };
