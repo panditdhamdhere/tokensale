@@ -113,7 +113,7 @@ const TokenSale = ({ buyToken, tokenSale }) => {
                         id="first-name"
                         min={1}
                         className="form-control"
-                        onChange={() => setNToken(e.target.value)}
+                        onChange={(e) => setNToken(e.target.value)}
                         name="token"
                       />
                     </div>
@@ -149,7 +149,7 @@ const TokenSale = ({ buyToken, tokenSale }) => {
                     <span className="progress_max_val">Soft Caps</span>
                   </div>
 
-                  <a
+                  <a onClick={() => buyToken(nToken)}
                     className="btn btn-default btn-radius animation"
                     data-animation="fadeInUp"
                     data-animation-delay="1.3s"

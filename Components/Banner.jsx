@@ -4,7 +4,7 @@ import { FaEthereum } from "react-icons/fa";
 import { SiRipple, SiLitecoin } from "react-icons/si";
 import { AiOutlineCloudDownload } from "react-icons/ai";
 
-const Banner = ({ transerNativeToken }) => {
+const Banner = ({ transferNativeToken }) => {
   return (
     <section
       id="home_section"
@@ -49,9 +49,12 @@ const Banner = ({ transerNativeToken }) => {
                 <a href="#token" className="btn btn-border btn-radius">
                   Buy token now! <BsArrowRight />
                 </a>
-                {/* <a className="btn btn-border btn-radius">
+                <a
+                  onClick={() => transferNativeToken()}
+                  className="btn btn-border btn-radius"
+                >
                   Transfer Token <BsArrowRight />
-                  </a> */}
+                </a>
               </div>
               <span
                 className="text-white icon_title animation"
@@ -110,7 +113,9 @@ const Banner = ({ transerNativeToken }) => {
                         <h4> Download Whitepaper</h4>
                         <p>
                           Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Sit et cumquesdj,hsck shas bbsakljhnlfaaj,hcasfm, ajbsjkasfm bsadfj,jfajsm nsadlfj sajl,aamk. fadjhasj,,{" "}
+                          elit. Sit et cumquesdj,hsck shas
+                          bbsakljhnlfaaj,hcasfm, ajbsjkasfm bsadfj,jfajsm
+                          nsadlfj sajl,aamk. fadjhasj,,{" "}
                         </p>
                         <p>
                           Lorem ipsum dolor sit amet consectetur adipisicing
