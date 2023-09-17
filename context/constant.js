@@ -8,7 +8,7 @@ import TokenSale from "./TokenSale.json"
 
 // TOKEN
 
-export const TOKEN_ADDRESS = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
+export const TOKEN_ADDRESS = "0x2B81175Fa22B8059585cF1CFe419b85dDb31124c";
 export const TOKEN_ABI = PanditBlock.abi;
 
 // TOKEN SALE
